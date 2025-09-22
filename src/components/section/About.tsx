@@ -17,7 +17,7 @@ export default function About() {
 					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						users
 					</span>{" "}
-					at the heart of every decision. I enjoy colaborating wiht teams,
+					at the heart of every decision. I enjoy colaborating with teams,
 					asking{" "}
 					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						&apos;why&apos;
