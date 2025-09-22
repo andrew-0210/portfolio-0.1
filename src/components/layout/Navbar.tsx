@@ -7,7 +7,7 @@ export default function Navbar() {
 	return (
 		<header className="py-[0.5rem] w-full fixed top-0 z-[999] bg-[#080808]">
 			<nav className="container px-[1.25rem] md:px-[4.5rem] flex justify-between items-center">
-				<Link href="#home">
+				<Link href="#home" scroll={false}>
 					<div className="w-[3.75rem] h-[3.75rem] md:w-[5rem] md:h-[5rem] relative">
 						<Image
 							src={andrew_logo}
@@ -24,7 +24,7 @@ export default function Navbar() {
 							<li
 								key={i}
 								className="px-[1rem] py-[0.5rem]">
-								<Link href={link.href}>{link.title}</Link>
+								<Link href={link.href} scroll={false}>{link.title}</Link>
 							</li>
 						);
 					})}
