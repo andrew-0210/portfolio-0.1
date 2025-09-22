@@ -36,14 +36,14 @@ export default function About() {
 					</span>
 				</h2>
 				<div>
-					<p className="mb-[1rem] font-normal">
+					<p className="mb-[1rem] font-normal text-[0.938rem]">
 						I believe great products are born when design meet execution.
 						I&apos;m Andrew, a UX Designer who loves turning ideas into real,
 						usable digital experiences. For me, design isn&apos;t just about
 						pretty screens, it&apos;s about solving problems and making
 						technology feel human.
 					</p>
-					<p>
+					<p className="font-normal text-[0.938rem]">
 						Whether you&apos;re a recruiter looking for a versatile
 						designer-developer, or a client who wants their ideas brought to
 						life, I bring the unique advantage of understanding both the design
