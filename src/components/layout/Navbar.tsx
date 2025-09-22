@@ -8,7 +8,7 @@ export default function Navbar() {
 		<header className="container py-[0.5rem]">
 			<nav className="px-[1.25rem] md:px-[4.5rem] flex justify-between items-center">
 				<Link href="/#home">
-					<div className="w-[2.5rem] h-[2.5rem] md:w-[5rem] md:h-[5rem] relative">
+					<div className="w-[3.125rem] h-[3.125rem] md:w-[5rem] md:h-[5rem] relative">
 						<Image
 							src={andrew_logo}
 							alt="andrew logo"
