@@ -6,32 +6,32 @@ export default function About() {
 			<div className="md:col-span-8 md:col-start-3 flex flex-col gap-[1.875rem]">
 				<h2 className="font-medium text-[2rem] md:text-[2.5rem] leading-[1.2] md:leading-[48px] tracking-[-2.5px]">
 					I approach design with{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						empathy
 					</span>
 					, code with{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						precision
 					</span>
 					, and always keep{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						users
 					</span>{" "}
 					at the heart of every decision. I enjoy collaborating with teams,
 					asking{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						&apos;why&apos;
 					</span>{" "}
 					before jumping into{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						&apos;how&apos;
 					</span>
 					, and delivering work that balances{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						creativity
 					</span>{" "}
 					with{" "}
-					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
+					<span className="font-display tracking-normal text-shadow-[0px_0px_3px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						functionality.
 					</span>
 				</h2>
