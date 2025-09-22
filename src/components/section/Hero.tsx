@@ -14,7 +14,7 @@ export default function Hero() {
 					work — on both web and mobile.
 				</p>
 				<div className=" flex gap-[1.875rem]">
-					<button type="button">Let's build great products</button>
+					<button type="button">Let&apos;s build great products</button>
 					<button type="button">Resume</button>
 				</div>
 			</div>
