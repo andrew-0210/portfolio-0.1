@@ -4,7 +4,7 @@ export default function About() {
 			className="container md:grid grid-cols-12 gap-[1.875rem] px-[1.25rem] py-[2.5rem] md:py-[4.5rem] h-dvh"
 			id="about">
 			<div className="md:col-span-8 md:col-start-3 flex flex-col gap-[1.875rem]">
-				<h2 className="text-[2rem] md:text-[2.5rem] leading-[1.2] md:leading-[48px] tracking-[-2.5px]">
+				<h2 className="font-semibold text-[2rem] md:text-[2.5rem] leading-[1.2] md:leading-[48px] tracking-[-2.5px]">
 					I approach design with{" "}
 					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						empathy
@@ -17,7 +17,7 @@ export default function About() {
 					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						users
 					</span>{" "}
-					at the heart of every decision. I enjoy colaborating with teams,
+					at the heart of every decision. I enjoy collaborating with teams,
 					asking{" "}
 					<span className="font-display tracking-normal text-shadow-[0px_0px_5px_rgba(255,255,255,0.5)] text-shadow-[#ffffff]">
 						&apos;why&apos;
