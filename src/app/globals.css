@@ -25,5 +25,5 @@ body {
 }
 
 @utility container {
-	@apply lg:max-w-[1300px] lg:mx-auto;
+	@apply md:max-w-[1300px] md:mx-auto;
 }
