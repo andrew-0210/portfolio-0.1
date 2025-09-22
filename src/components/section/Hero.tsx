@@ -6,7 +6,7 @@ export default function Hero() {
 				<span className="font-display">interfaces people love.</span>
 			</h1>
 			<div className="flex flex-col gap-[1.875rem] max-w-[850px] items-center">
-				<p className="text-balance text-center">
+				<p className="text-balance text-center text-[0.938rem] md:text-[1rem]">
 					Over the past few years, I&apos;ve worked on HRM platforms, aviation
 					monitoring apps, dental and real estate websites, and mobile apps for
 					product display and bus tracking. My focus is always the same: design
