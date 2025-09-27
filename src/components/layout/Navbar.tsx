@@ -1,5 +1,5 @@
 import Image from "next/image";
-import andrew_logo from "@/app/assets/images/drew_logo.svg";
+import andrew_logo from "@/assets/images/drew_logo.svg";
 import Link from "next/link";
 import { navLinks } from "@/constants/navlinks";
 
