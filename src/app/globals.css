@@ -27,7 +27,7 @@ body {
 @utility container {
 	@apply sm:max-w-[1300px] mx-auto;
 }
-
+/*
 .outer-container,
 .outer-container2 {
 	height: 80vh;
@@ -37,14 +37,19 @@ body {
 	transition: clip-path 1s;
 }
 
-/* .outer-container:hover {
+ .outer-container:hover {
 	clip-path: polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%);
 	cursor: pointer;
-} */
+} 
 
 .outer-container .img {
 	background: url("../assets/images/stage.jpg");
 	background-size: cover;
+	height: 100%;
+}
+
+.outer-container .img {
+	background-color: #080808;
 	height: 100%;
 }
 
@@ -79,3 +84,4 @@ body {
 	font-size: 4rem;
 	font-family: var(--font-ivy-display);
 }
+*/

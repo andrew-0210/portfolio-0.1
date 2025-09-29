@@ -1,7 +1,8 @@
 import Image from "next/image";
 import andrew_logo from "@/assets/images/drew_logo.svg";
 import Link from "next/link";
-import { navLinks } from "@/constants/navlinks";
+import { navLinks } from "@/constants/data";
+import Button from "../ui/Button";
 
 export default function Navbar() {
 	return (
@@ -18,7 +19,7 @@ export default function Navbar() {
 						/>
 					</div>
 				</Link>
-				<ul className="flex flex-1 justify-center">
+				<ul className="md:flex flex-1 justify-center hidden ">
 					{navLinks.map((link, i) => {
 						return (
 							<li
@@ -29,7 +30,9 @@ export default function Navbar() {
 						);
 					})}
 				</ul>
-				<button>Resume</button>
+				<Button className="shadow-[0px_4px_0px_rgba(188,66,0,1)]">
+					Resume
+				</Button>
 			</nav>
 		</header>
 	);
