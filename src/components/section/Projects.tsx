@@ -38,7 +38,7 @@ export default function Projects() {
 	// }, []);
 
 	return (
-		<section className="px-[1.25rem] relative">
+		<section className="px-[1.25rem] relative" id="projects">
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Featured Works
 			</h2>
