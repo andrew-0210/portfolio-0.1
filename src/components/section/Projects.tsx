@@ -31,9 +31,13 @@ export default function Projects() {
 	}, []);
 
 	return (
+<<<<<<< HEAD
 		<section
 			className="px-[1.25rem] relative"
 			id="projects">
+=======
+		<section className="px-[1.25rem] relative" id="projects">
+>>>>>>> f0ea69ca5a686c618da69919fd850bb81f0b19d6
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Featured Works
 			</h2>
