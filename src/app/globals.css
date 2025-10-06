@@ -13,7 +13,7 @@
 	--font-display: var(--font-ivy-display);
 }
 
-html {
+* {
 	scroll-behaviour: smooth;
 }
 
@@ -27,61 +27,3 @@ body {
 @utility container {
 	@apply sm:max-w-[1300px] mx-auto;
 }
-/*
-.outer-container,
-.outer-container2 {
-	height: 80vh;
-	width: 100%;
-	position: absolute;
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-	transition: clip-path 1s;
-}
-
- .outer-container:hover {
-	clip-path: polygon(7% 7%, 93% 7%, 93% 93%, 7% 93%);
-	cursor: pointer;
-} 
-
-.outer-container .img {
-	background: url("../assets/images/stage.jpg");
-	background-size: cover;
-	height: 100%;
-}
-
-.outer-container .img {
-	background-color: #080808;
-	height: 100%;
-}
-
-.outer-container .content {
-	position: absolute;
-	z-index: 1;
-	display: grid;
-	place-items: center;
-	height: 80vh;
-	width: 100%;
-	font-size: 4rem;
-	font-family: var(--font-ivy-display);
-}
-
-.outer-container2 {
-	z-index: -1;
-}
-
-.outer-container2 .img2 {
-	background: url("../assets/images/house.jpg");
-	background-size: cover;
-	height: 100%;
-}
-
-.outer-container2 .content2 {
-	position: absolute;
-	z-index: 1;
-	display: grid;
-	place-items: center;
-	height: 80vh;
-	width: 100%;
-	font-size: 4rem;
-	font-family: var(--font-ivy-display);
-}
-*/

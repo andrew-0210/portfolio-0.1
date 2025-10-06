@@ -1,4 +1,4 @@
-import { skillList } from "@/constants/data";
+import { companyList } from "@/constants/data";
 
 export default function Experience() {
 	return (
@@ -8,7 +8,7 @@ export default function Experience() {
 			</h2>
 			<div className="md:grid md:grid-cols-12">
 				<div className="flex mt-[1.875rem] md:mt-[3.75rem] gap-[2.5rem] flex-col-reverse md:col-span-8 md:col-start-3 ">
-					{skillList.map((skill, i) => (
+					{companyList.map((skill, i) => (
 						<div
 							className=" flex justify-between items-center gap-[1rem]"
 							key={i}>
@@ -17,7 +17,7 @@ export default function Experience() {
 									({i <= 9 ? "0" + i : i})
 								</span>
 								<div className="">
-									<p className="text-[1rem] md:text-[1.5rem] leading-[21.6px] font-semibold tracking-[-0.8]">
+									<p className="text-[1rem] md:text-[1.5rem] leading-[21.6px] font-medium tracking-[-0.8]">
 										{skill.company}
 									</p>
 									<p className="text-[0.938rem] md:text-[1.125rem] text-[#999999] tracking-[-0.8] font-medium">

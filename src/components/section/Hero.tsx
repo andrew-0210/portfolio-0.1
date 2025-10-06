@@ -5,7 +5,7 @@ export default function Hero() {
 		<section className="container flex flex-col gap-[3.75rem] items-center justify-center  px-[1.25rem] pt-[12rem] py-[4.5rem]">
 			<h1 className="font-headline text-[3.5rem] lg:text-[5.5rem] leading-[1] text-center text-balance text-[#999999]">
 				I turn user needs into{" "}
-				<span className="font-display text-shadow-[0px_0px_8px_rgba(255,255,255,0.5)] text-shadow-[#ffffff] text-white">
+				<span className="font-display text-shadow-[0px_0px_8px_rgba(255,255,255,0.5)] text-shadow-[#ffffff] text-white ">
 					interfaces people love.
 				</span>
 			</h1>
@@ -18,10 +18,16 @@ export default function Hero() {
 				<div className=" flex gap-[1rem]">
 					<Button
 						type="button"
-						className="shadow-[0px_4px_0px_rgba(188,66,0,1)]">
-						Let&apos;s build great products
+						className="shadow-[0px_4px_0px_rgba(188,66,0,1)] ">
+						<a href="#contact">Let&apos;s build great products</a>
 					</Button>
-					<Button type="button">Resume</Button>
+					<Button type="button">
+						<a
+							href="/documents/Andrew_Monthero_UI-UX_Designer_Resume.pdf"
+							download>
+							Resume
+						</a>
+					</Button>
 				</div>
 			</div>
 		</section>

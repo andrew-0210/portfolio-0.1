@@ -13,19 +13,19 @@ export const navLinks = [
 	},
 ];
 
-export const skillList = [
+export const companyList = [
 	{
-		company: "Thinkarz Technologies Pvt. Ltd. (Mumbai)",
+		company: "Thinkarz Technologies Pvt. Ltd.(Mumbai)",
 		designation: "UI & UX Designer Intern",
 		duration: "November 2021 - May 2022",
 	},
 	{
-		company: "Terado Engineering Pvt. Ltd. (Mumbai)",
+		company: "Terado Engineering Pvt. Ltd.(Mumbai)",
 		designation: "UI & UX Designer",
 		duration: "June 2022 - February 2024",
 	},
 	{
-		company: "Adaptify Digital Pty. Ltd.",
+		company: "Adaptify Digital Pty. Ltd.(Australia)",
 		designation: "UI & UX Designer",
 		duration: "March 2024 - June 2025",
 	},
@@ -52,4 +52,23 @@ export const projects = [
 		title: "Postsales Software",
 		subTitle: "ERP software for real estate management",
 	},
+];
+
+export const uxSkills = [
+	"User research",
+	"Information Architecture",
+	"Wireframing",
+	"Competitive Analysis",
+	"UX Audit",
+	"Prototyping",
+	"Usability Testing",
+];
+
+export const uiSkills = [
+	"Visual Design",
+	"Accessibility",
+	"Design Systems",
+	"Mobile App Design",
+	"Website Design",
+	"Interaction Design",
 ];
