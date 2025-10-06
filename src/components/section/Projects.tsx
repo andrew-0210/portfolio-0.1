@@ -43,7 +43,9 @@ export default function Projects() {
 						href={project.href}
 						className="h-[60vh] md:h-[85vh] flex items-end p-[2rem] md:pb-[4rem] bg-[#262626] mb-[1.875rem] opacity-0 translate-y-30 rounded-[20px] justify-center hover:ring-3 hover:ring-[#BC4200]"
 						key={i}
-						ref={(el) => (projectRef.current[i] = el)}>
+						ref={(el) => {
+							if (el) projectRef.current[i] = el;
+						}}>
 						<div className="block">
 							<p className="font-display text-center tracking-normal text-[1.5rem] md:text-[2rem] leading-[30px] whitespace-pre-line">
 								<span className="text-[1.5rem]">
