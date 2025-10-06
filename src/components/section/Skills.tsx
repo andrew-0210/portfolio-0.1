@@ -59,8 +59,8 @@ export default function Skills() {
 						[&quot;GSAP&quot;, &quot;Framer Motion&quot;], <br />
 						&#125; <br />
 						<span className="text-[#757575] text-balance inline-block ">
-							// initialized object using let because skills will expand in the
-							future.
+							&#47;&#47;initialized object using let because skills will expand
+							in the future.
 						</span>
 					</code>
 				</div>
