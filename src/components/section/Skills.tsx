@@ -43,18 +43,20 @@ export default function Skills() {
 							let <span className="text-[#e14bff] ">UIDevelopment</span>
 						</span>{" "}
 						= &#123; <br />
-						<span className="text-[#fff] font-medium">structure:</span> ["HTML",
-						"JSX"], <br />
-						<span className="text-[#fff] font-medium">styling:</span> ["CSS",
-						"Tailwind_CSS"], <br />
+						<span className="text-[#fff] font-medium">structure:</span>{" "}
+						[&quot;HTML&quot;, &quot;JSX&quot;], <br />
+						<span className="text-[#fff] font-medium">styling:</span>{" "}
+						[&quot;CSS&quot;, &quot;Tailwind_CSS&quot;], <br />
 						<span className="text-[#fff] font-medium">interactivity:</span>{" "}
-						["JavaScript", "Typescript(beginner)"], <br />
+						[&quot;JavaScript&quot;, &quot;Typescript(beginner)&quot;], <br />
 						<span className="text-[#fff] font-medium">frameworks:</span>{" "}
-						["React.js", "React_Native(beginner)", "Next.js(beginner)"], <br />
+						[&quot;React.js&quot;, &quot;React_Native(beginner)&quot;,
+						&quot;Next.js(beginner)&quot;], <br />
 						<span className="text-[#fff] font-medium">
 							animation_library:
 						</span>{" "}
-						["GSAP", "Framer Motion"], <br />
+						[&quot;GSAP&quot;, &quot;Framer Motion&quot;], <br />
+						[&quot;GSAP&quot;, &quot;Framer Motion&quot;], <br />
 						&#125; <br />
 						<span className="text-[#757575] text-balance inline-block ">
 							// initialized object using let because skills will expand in the
