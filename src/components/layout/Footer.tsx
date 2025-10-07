@@ -8,7 +8,7 @@ export default function Footer() {
 			<div className="flex items-center justify-center">
 				<div className="flex flex-col gap-[2.75rem] text-balance sm:max-w-[60%] items-center text-center">
 					<h3 className="font-display text-[2.5rem] md:text-[4.5rem] leading-[1] ">
-						Let's build great products together!
+						Let&apos;s build great products together!
 					</h3>
 					<p className="text-[0.875rem] leading-[24px] md:text-[1.125rem] md:leading-[30px]">
 						Everything meaningful starts with a conversation. I am open to
