@@ -22,8 +22,8 @@ export default function Projects() {
 				duration: 1.5,
 				scrollTrigger: {
 					trigger: el,
-					start: "top 150%",
-					end: "bottom 70%",
+					start: "top 200%",
+					end: "bottom 80%",
 					scrub: 0.5,
 				},
 			});
@@ -32,7 +32,7 @@ export default function Projects() {
 
 	return (
 		<section
-			className="px-[1.25rem] relative"
+			className="px-[1.25rem] relative sm:px-0"
 			id="projects">
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Featured Works
@@ -41,7 +41,7 @@ export default function Projects() {
 				{projects.map((project, i) => (
 					<Link
 						href={project.href}
-						className="h-[60vh] md:h-[85vh] flex items-end p-[2rem] md:pb-[4rem] bg-[#262626] mb-[1.875rem] opacity-0 translate-y-30 rounded-[20px] justify-center hover:ring-3 hover:ring-[#BC4200]"
+						className="h-[60vh] md:h-[85vh] flex items-end p-[2rem] md:pb-[4rem] bg-[#262626] mb-[1.875rem] sm:mb-0 opacity-0 translate-y-30 rounded-[20px] sm:rounded-none justify-center hover:ring-3 hover:ring-[#BC4200]"
 						key={i}
 						ref={(el) => {
 							if (el) projectRef.current[i] = el;

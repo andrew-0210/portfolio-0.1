@@ -4,7 +4,10 @@ export default function Experience() {
 	return (
 		<section className="container py-[4.385rem] px-[1.125rem]">
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
-				Experience
+				Experience{" "}
+				<span className="text-[1.5rem] md:text-[2.25rem] ">
+					({`${new Date().getFullYear() - 2022}+ years`})
+				</span>
 			</h2>
 			<div className="md:grid md:grid-cols-12">
 				<div className="flex mt-[1.875rem] md:mt-[3.75rem] gap-[2.5rem] flex-col-reverse md:col-span-8 md:col-start-3 ">

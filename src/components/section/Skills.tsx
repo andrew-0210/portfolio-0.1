@@ -2,7 +2,7 @@ import { uiSkills, uxSkills } from "@/constants/data";
 
 export default function Skills() {
 	return (
-		<section className="container px-[1.125rem]">
+		<section className="container px-[1.125rem] pt-[2rem] md:pt-[4.385rem]">
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Skills
 			</h2>

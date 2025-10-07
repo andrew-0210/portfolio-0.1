@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 export default function Hero() {
 	return (
 		<section className="container flex flex-col gap-[3.75rem] items-center justify-center  px-[1.25rem] pt-[12rem] py-[4.5rem]">
-			<h1 className="font-headline text-[3.5rem] lg:text-[5.5rem] leading-[1] text-center text-balance text-[#999999]">
+			<h1 className="font-headline text-[3rem] md:text-[4.5rem] leading-[1] text-center text-balance text-[#999999] max-w-[60%]">
 				I turn user needs into{" "}
 				<span className="font-display text-shadow-[0px_0px_8px_rgba(255,255,255,0.5)] text-shadow-[#ffffff] text-white ">
 					interfaces people love.

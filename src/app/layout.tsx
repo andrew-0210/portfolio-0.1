@@ -3,6 +3,7 @@ import "./globals.css";
 import clsx from "clsx";
 import { interSans, ivyPrestoDisplay, ivyPrestoHeadline } from "./fonts/font";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
 	title: "Andrew | Design Portfolio",
@@ -25,6 +26,7 @@ export default function RootLayout({
 				)}>
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
