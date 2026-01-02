@@ -36,7 +36,7 @@ export const companyList = [
 	},
 	{
 		company: "Neosoft Technologies Pvt. Ltd.(Mumbai)",
-		designation: "UI & UX Designer",
+		designation: "Sr. UI & UX Designer",
 		duration: "October 2025 - Present",
 	},
 ];
