@@ -17,7 +17,7 @@ export default function Experience() {
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Experience{" "}
 				<span className="text-[1.5rem] md:text-[2.25rem] ">
-					({years}.{months}years)
+					({years}.{months}{" "}years)
 				</span>
 			</h2>
 			<div className="md:grid md:grid-cols-12">
