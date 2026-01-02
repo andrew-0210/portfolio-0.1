@@ -1,12 +1,23 @@
 import { companyList } from "@/constants/data";
 
 export default function Experience() {
+ const startDate = new Date(2021, 10);
+  const today = new Date();
+
+  let years = today.getFullYear() - startDate.getFullYear();
+  let months = today.getMonth() - startDate.getMonth();
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+	
 	return (
 		<section className="container py-[4.385rem] px-[1.125rem]">
 			<h2 className="font-display text-center text-[2rem] md:text-[3rem] text-[#999999]">
 				Experience{" "}
 				<span className="text-[1.5rem] md:text-[2.25rem] ">
-					({`${new Date().getFullYear() - 2021}+ years`})
+					({years}.{months}years)
 				</span>
 			</h2>
 			<div className="md:grid md:grid-cols-12">
