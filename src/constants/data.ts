@@ -29,15 +29,15 @@ export const companyList = [
 		designation: "UI & UX Designer",
 		duration: "March 2024 - June 2025",
 	},
-	{
-		company: "Career Break",
-		designation: "Professional Development",
-		duration: "June 2025 - October 2025",
-	},
+	// {
+	// 	company: "Career Break",
+	// 	designation: "Professional Development",
+	// 	duration: "June 2025 - October 2025",
+	// },
 	{
 		company: "Neosoft Technologies Pvt. Ltd.(Mumbai)",
 		designation: "Sr. UI & UX Designer",
-		duration: "October 2025 - Present",
+		duration: "October 2025 - August 2026",
 	},
 ];
 
