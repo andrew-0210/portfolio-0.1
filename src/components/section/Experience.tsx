@@ -37,7 +37,7 @@ export default function Experience() {
         <div className="flex mt-[1.875rem] md:mt-[3.75rem] gap-[2.5rem] flex-col-reverse md:col-span-8 md:col-start-3 ">
           {companyList.map((skill, i) => (
             <div
-              className="flex justify-between items-center gap-[1rem]"
+              className="flex justify-between gap-[1rem]"
               key={i}
             >
               <div className="flex gap-[0.5rem] flex-1/4">
