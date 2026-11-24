@@ -22,7 +22,7 @@ export const companyList = [
 	{
 		company: "Terado Engineering Pvt. Ltd.(Mumbai)",
 		designation: "UI & UX Designer",
-		duration: "June 2022 - February 2024",
+		duration: "August 2022 - February 2024",
 	},
 	{
 		company: "Adaptify Digital Pty. Ltd.(Australia)",
