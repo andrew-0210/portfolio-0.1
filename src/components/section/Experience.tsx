@@ -40,7 +40,7 @@ export default function Experience() {
               className="flex justify-between items-center gap-[1rem]"
               key={i}
             >
-              <div className="flex items-center gap-[0.5rem] flex-1/4">
+              <div className="flex gap-[0.5rem] flex-1/4">
                 <span className="font-display text-[1.25rem] md:text-[1.5rem]">
                   ({i <= 9 ? "0" + i : i})
                 </span>
